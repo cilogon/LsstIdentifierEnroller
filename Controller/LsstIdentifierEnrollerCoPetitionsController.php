@@ -9,6 +9,7 @@ class LsstIdentifierEnrollerCoPetitionsController extends CoPetitionsController 
   public $name = "LsstIdentifierEnrollerCoPetitions";
 
   public $uses = array("CoPetition",
+                       "AttributeEnumeration",
                        "LsstIdentifierEnroller.LsstIdentifierEnroller");
   
   /**
